@@ -1,5 +1,5 @@
 function SnapCrackle(MaxValue) {
-    //let STR = ""0
+    
     let myArray = []
     for ( let contador = 1; contador <= MaxValue; contador++) {
         if (contador %2 !== 0 && contador % 5 === 0) {
