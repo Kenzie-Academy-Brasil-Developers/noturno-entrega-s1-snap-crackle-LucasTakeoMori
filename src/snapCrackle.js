@@ -16,7 +16,8 @@ function SnapCrackle(MaxValue) {
         }
        
     }
-    return myArray
+    
+    console.log(myArray.join(','))
 }
-//console para testar no terminal
-//console.log(SnapCrackle())
+
+console.log(SnapCrackle())
